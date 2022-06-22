@@ -2,20 +2,6 @@
     box-sizing: border-box;
     margin: 0;
 }
-button{
-    padding: 5px 10px;
-    border-color: #0b99eb;
-    background-color: white;
-    color: #000;
-    border-radius: 4px;
-    transition: 2ms;
-}
-button:hover{
-    background-color: #0b99eb;
-    color: white; 
-    font-weight: 700
-    /* transition: 1ms; */
-}
 input:active{
     border-color: #0b99eb;
 }
@@ -38,7 +24,7 @@ input:active{
 }
 sub{
     font-size: small;
-    color: #053e5f;
+    color: #0609f0;
 }
 .container ul {
     margin: 0;
@@ -69,14 +55,14 @@ li a:hover:not(.active) {
     border-radius: 3px;
 }
 .construct-app{
-    padding: 2rem;
-    width: auto;
+    padding: 2rem 1.3rem;
+    width: max-content;
 }
 .construct-app a{
-    font-size: xx-large;
-    font-weight: bold;
+    font-size: x-large;
+    font-weight: 500;
     text-decoration: none;
-    color: #074061;
+    color: #090cec;
     /* text-transform: uppercase;
 	background: linear-gradient(to right, #1d5fee 0%, #a6b7ce 100%);
 	-webkit-background-clip: text;
@@ -89,6 +75,7 @@ li a:hover:not(.active) {
 .construct-app:hover{
     background-color: white;
     border-radius: 3px;
+    font-weight: bold;
     color: #0b99eb;
     transition: 1ms;
 }
@@ -105,6 +92,20 @@ li a:hover:not(.active) {
     background-size: cover;
     background-position: center;
     padding: 5rem;
+}
+button{
+    padding: 5px 10px;
+    border-color: #0b99eb;
+    background-color: white;
+    color: #000;
+    border-radius: 4px;
+    transition: 2ms;
+}
+button:hover{
+    background-color: #0b99eb;
+    color: white; 
+    font-weight: 700
+    /* transition: 1ms; */
 }
 h2{
     text-align: center;
