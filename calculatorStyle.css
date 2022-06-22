@@ -87,7 +87,7 @@ li a:hover:not(.active) {
     position: relative;
 }
 #Home-content{
-    background-image: url(images/const\ cover.webp);
+    background-image: url(con-images/calculateCover.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
